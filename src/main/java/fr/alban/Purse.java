@@ -42,6 +42,8 @@ public class Purse {
         operations++;
     }
 
+    // COMMENTAIRE
+
     public void debit(float montant, String pinCode) throws MontantNegatifException, MontantNegatifException, NbOpMaxAtteintException, RejetSurCodeFauxException, RejetSurCodeBloque {
         controlePreOp(montant);
         if (codeSecret.verifierCode(pinCode) == false ) throw new RejetSurCodeFauxException();
