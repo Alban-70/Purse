@@ -42,7 +42,7 @@ public class Purse {
         operations++;
     }
 
-    // COMMENTAIRE sdfberhre ytcgviyvbjk
+    // COMMENTAIRE
 
     public void debit(float montant, String pinCode) throws MontantNegatifException, MontantNegatifException, NbOpMaxAtteintException, RejetSurCodeFauxException, RejetSurCodeBloque {
         controlePreOp(montant);
